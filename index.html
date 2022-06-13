@@ -1,0 +1,560 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <div>
+        <div>
+          <img
+            alt="Kết quả hình ảnh cho logo facebook"
+            id="dimg_1"
+            src="data:image/png;base64,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"
+            data-atf="1"
+            data-frt="0"
+          />
+        </div>
+        <div>
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Nhập nội dung tìm kiếm" value="" />
+        </div>
+      </div>
+      <div>
+        <i class="fa fa-home"></i>
+        <svg height="28" width="28">
+          <path
+            d="M8.75 25.25C8.336 25.25 8 24.914 8 24.5 8 24.086 8.336 23.75 8.75 23.75L19.25 23.75C19.664 23.75 20 24.086 20 24.5 20 24.914 19.664 25.25 19.25 25.25L8.75 25.25ZM17.163 12.846 12.055 15.923C11.591 16.202 11 15.869 11 15.327L11 9.172C11 8.631 11.591 8.297 12.055 8.576L17.163 11.654C17.612 11.924 17.612 12.575 17.163 12.846ZM21.75 20.25C22.992 20.25 24 19.242 24 18L24 6.5C24 5.258 22.992 4.25 21.75 4.25L6.25 4.25C5.008 4.25 4 5.258 4 6.5L4 18C4 19.242 5.008 20.25 6.25 20.25L21.75 20.25ZM21.75 21.75 6.25 21.75C4.179 21.75 2.5 20.071 2.5 18L2.5 6.5C2.5 4.429 4.179 2.75 6.25 2.75L21.75 2.75C23.821 2.75 25.5 4.429 25.5 6.5L25.5 18C25.5 20.071 23.821 21.75 21.75 21.75Z"
+          ></path>
+        </svg>
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/1198/1198412.png"
+          width="64"
+          height="64"
+        />
+        <i class="fa fa-group"></i>
+        <svg height="28" width="28">
+          <path
+            d="M23.5 9.5H10.25a.75.75 0 00-.75.75v7c0 .414.336.75.75.75H17v5.5H4.5v-19h19v5zm0 14h-5v-6.25a.75.75 0 00-.75-.75H11V11h12.5v12.5zm1.5.25V4.25C25 3.561 24.439 3 23.75 3H4.25C3.561 3 3 3.561 3 4.25v19.5c0 .689.561 1.25 1.25 1.25h19.5c.689 0 1.25-.561 1.25-1.25z"
+          ></path>
+        </svg>
+      </div>
+      <div>
+        <div>
+          <div>
+            <img
+              src="./images/275813192_1973223186218987_6890584232734569076_n.jpg"
+              alt=""
+            />
+          </div>
+          <span>Long</span>
+        </div>
+        <div>
+          <svg
+            fill="currentColor"
+            viewBox="0 0 44 44"
+            width="1em"
+            height="1em"
+            class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 rs22bh7c jnigpg78 odw8uiq3"
+          >
+            <circle cx="7" cy="7" r="6"></circle>
+            <circle cx="22" cy="7" r="6"></circle>
+            <circle cx="37" cy="7" r="6"></circle>
+            <circle cx="7" cy="22" r="6"></circle>
+            <circle cx="22" cy="22" r="6"></circle>
+            <circle cx="37" cy="22" r="6"></circle>
+            <circle cx="7" cy="37" r="6"></circle>
+            <circle cx="22" cy="37" r="6"></circle>
+            <circle cx="37" cy="37" r="6"></circle>
+          </svg>
+          <svg
+            viewBox="0 0 28 28"
+            alt=""
+            class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 rs22bh7c"
+            fill="currentColor"
+            height="20"
+            width="20"
+          >
+            <path
+              d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z"
+            ></path>
+          </svg>
+          <svg
+            viewBox="0 0 28 28"
+            alt=""
+            class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 rs22bh7c"
+            fill="currentColor"
+            height="20"
+            width="20"
+          >
+            <path
+              d="M7.847 23.488C9.207 23.488 11.443 23.363 14.467 22.806 13.944 24.228 12.581 25.247 10.98 25.247 9.649 25.247 8.483 24.542 7.825 23.488L7.847 23.488ZM24.923 15.73C25.17 17.002 24.278 18.127 22.27 19.076 21.17 19.595 18.724 20.583 14.684 21.369 11.568 21.974 9.285 22.113 7.848 22.113 7.421 22.113 7.068 22.101 6.79 22.085 4.574 21.958 3.324 21.248 3.077 19.976 2.702 18.049 3.295 17.305 4.278 16.073L4.537 15.748C5.2 14.907 5.459 14.081 5.035 11.902 4.086 7.022 6.284 3.687 11.064 2.753 15.846 1.83 19.134 4.096 20.083 8.977 20.506 11.156 21.056 11.824 21.986 12.355L21.986 12.356 22.348 12.561C23.72 13.335 24.548 13.802 24.923 15.73Z"
+            ></path>
+          </svg>
+          <svg
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            width="1em"
+            height="1em"
+            class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 rs22bh7c jnigpg78 odw8uiq3"
+          >
+            <path
+              d="M10 14a1 1 0 0 1-.755-.349L5.329 9.182a1.367 1.367 0 0 1-.205-1.46A1.184 1.184 0 0 1 6.2 7h7.6a1.18 1.18 0 0 1 1.074.721 1.357 1.357 0 0 1-.2 1.457l-3.918 4.473A1 1 0 0 1 10 14z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <div>
+            <div></div>
+            <span></span>
+          </div>
+          <ul>
+            <li>
+              <img
+                class="hu5pjgll bixrwtb6"
+                src="./images/S0U5ECzYUSu.png"
+                style="height: 36px; width: 36px"
+                alt=""
+              />
+              <span>Ban be</span>
+            </li>
+            <li>
+              <img
+                class="hu5pjgll bixrwtb6"
+                src="./images/PrjLkDYpYbH.png"
+                style="height: 36px; width: 36px"
+                alt=""
+              />
+              <span>Nhom</span>
+            </li>
+            <li>
+              <img
+                class="hu5pjgll bixrwtb6"
+                src="./images/D2y-jJ2C_hO.png"
+                style="height: 36px; width: 36px"
+                alt=""
+              />
+              <span>Maketplace</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Lối tắt của bạn</h4>
+          <ul>
+            <li>
+              <div>
+                <img
+                  src="./images/240451294_972017880036658_8216888040107327786_n (1).jpg"
+                  alt=""
+                />
+              </div>
+              <span>Ruby Family!</span>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./images/240451294_972017880036658_8216888040107327786_n (1).jpg"
+                  alt=""
+                />
+              </div>
+              <span>Ruby Family!</span>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./images/240451294_972017880036658_8216888040107327786_n (1).jpg"
+                  alt=""
+                />
+              </div>
+              <span>Ruby Family!</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <img
+              src="./images/284346252_3131022160561541_967451092257600168_n.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./images/284346252_3131022160561541_967451092257600168_n.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./images/284346252_3131022160561541_967451092257600168_n.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./images/284346252_3131022160561541_967451092257600168_n.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./images/284346252_3131022160561541_967451092257600168_n.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./images/284346252_3131022160561541_967451092257600168_n.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./images/284346252_3131022160561541_967451092257600168_n.jpg"
+              alt=""
+            />
+          </li>
+        </ul>
+        <div>
+          <div>
+            <div>
+              <img
+                src="./images/275813192_1973223186218987_6890584232734569076_n.jpg"
+                alt=""
+              />
+            </div>
+            <input type="text" placeholder="ban dang nghi gi the" value="" />
+          </div>
+          <div>
+            <div>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                width="1em"
+                height="1em"
+                class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 fxtw5amg rgmg9uty b73ngqbp"
+              >
+                <g fill-rule="evenodd" transform="translate(-444 -156)">
+                  <g>
+                    <path
+                      d="M113.029 2.514c-.363-.088-.746.014-1.048.234l-2.57 1.88a.999.999 0 0 0-.411.807v8.13a1 1 0 0 0 .41.808l2.602 1.901c.219.16.477.242.737.242.253 0 .508-.077.732-.235.34-.239.519-.65.519-1.065V3.735a1.25 1.25 0 0 0-.971-1.22m-20.15 6.563c.1-.146 2.475-3.578 5.87-3.578 3.396 0 5.771 3.432 5.87 3.578a.749.749 0 0 1 0 .844c-.099.146-2.474 3.578-5.87 3.578-3.395 0-5.77-3.432-5.87-3.578a.749.749 0 0 1 0-.844zM103.75 19a3.754 3.754 0 0 0 3.75-3.75V3.75A3.754 3.754 0 0 0 103.75 0h-10A3.754 3.754 0 0 0 90 3.75v11.5A3.754 3.754 0 0 0 93.75 19h10z"
+                      transform="translate(354 158.5)"
+                    ></path>
+                    <path
+                      d="M98.75 12c1.379 0 2.5-1.121 2.5-2.5S100.129 7 98.75 7a2.503 2.503 0 0 0-2.5 2.5c0 1.379 1.121 2.5 2.5 2.5"
+                      transform="translate(354 158.5)"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              <span>Video truc tiep</span>
+            </div>
+            <div>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                width="1em"
+                height="1em"
+                class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 j58f7537 rgmg9uty b73ngqbp"
+              >
+                <g fill-rule="evenodd" transform="translate(-444 -156)">
+                  <g>
+                    <path
+                      d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z"
+                      transform="translate(352 156.5)"
+                    ></path>
+                    <path
+                      fill-rule="nonzero"
+                      d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z"
+                      transform="translate(352 156.5)"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              <span>Anh/Video</span>
+            </div>
+            <div>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                width="1em"
+                height="1em"
+                class="a8c37x1j ms05siws l3qrxjdp b7h9ocf4 mu8pnim0 rgmg9uty b73ngqbp"
+              >
+                <g fill-rule="evenodd" transform="translate(-444 -156)">
+                  <g>
+                    <path
+                      d="M107.285 13c.49 0 .841.476.712.957-.623 2.324-2.837 4.043-5.473 4.043-2.636 0-4.85-1.719-5.473-4.043-.13-.48.222-.957.712-.957h9.522z"
+                      transform="translate(353.5 156.5)"
+                    ></path>
+                    <path
+                      fill-rule="nonzero"
+                      d="M114.024 11.5c0 6.351-5.149 11.5-11.5 11.5s-11.5-5.149-11.5-11.5S96.173 0 102.524 0s11.5 5.149 11.5 11.5zm-2 0a9.5 9.5 0 1 0-19 0 9.5 9.5 0 0 0 19 0z"
+                      transform="translate(353.5 156.5)"
+                    ></path>
+                    <path
+                      d="M99.524 8.5c0 .829-.56 1.5-1.25 1.5s-1.25-.671-1.25-1.5.56-1.5 1.25-1.5 1.25.671 1.25 1.5m8.5 0c0 .829-.56 1.5-1.25 1.5s-1.25-.671-1.25-1.5.56-1.5 1.25-1.5 1.25.671 1.25 1.5m-.739 4.5h-9.522c-.49 0-.841.476-.712.957.623 2.324 2.837 4.043 5.473 4.043 2.636 0 4.85-1.719 5.473-4.043.13-.48-.222-.957-.712-.957m-2.165 2c-.667.624-1.592 1-2.596 1a3.799 3.799 0 0 1-2.596-1h5.192"
+                      transform="translate(353.5 156.5)"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              <span>Cam xuc/Hoat dong</span>
+            </div>
+          </div>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <img
+                src="./images/275493505_1014856276113485_4405669253087599876_n.jpg"
+                alt=""
+              />
+            </div>
+            <span>Van Tai Le Thang</span>
+            <button>Gui loi chao</button>
+          </li>
+          <li>
+            <div>
+              <img
+                src="./images/275493505_1014856276113485_4405669253087599876_n.jpg"
+                alt=""
+              />
+            </div>
+            <span>Van Tai Le Thang</span>
+            <button>Gui loi chao</button>
+          </li>
+          <li>
+            <div>
+              <img
+                src="./images/275493505_1014856276113485_4405669253087599876_n.jpg"
+                alt=""
+              />
+            </div>
+            <span>Van Tai Le Thang</span>
+            <button>Gui loi chao</button>
+          </li>
+        </ul>
+        <div>
+          <div>
+            <div>
+              <div>
+                <img
+                  src="./images/253279998_256936506478935_6055665072561673565_n.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h2>TOP Comments</h2>
+                <span>1 giờ · </span>
+              </div>
+            </div>
+            <div>
+              <span>...</span>
+              <span>X</span>
+            </div>
+          </div>
+          <span>Nó lạ lắm</span>
+          <div>
+            <img
+              src="./images/286401187_4108607816063989_84725963840288798_n.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <div>
+              <i class="fa fa-thumbs-up"></i>
+              <i class="fa fa-heart"></i>
+              <span>3,4k</span>
+            </div>
+            <div>
+              <span>380 binh luan</span>
+              <span>7 luot chia se</span>
+            </div>
+          </div>
+          <ul>
+            <li><i class="fa fa-thumbs-up"></i>Thich</li>
+            <li><i class="fa fa-comments-o"></i>Binh Luan</li>
+            <li><i class="fa fa-share"></i>Chia se</li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <img
+                  src="./images/93279833_1779818735517073_7228013411764797440_n.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h2>Lovelies</h2>
+                <span>1 giờ · </span>
+              </div>
+            </div>
+            <div>
+              <span>...</span>
+              <span>X</span>
+            </div>
+          </div>
+          <span>Thế giới đầy những lời nói dối ngọt ngào.</span>
+          <div>
+            <iframe
+              width="935"
+              height="526"
+              src="https://www.youtube.com/embed/qFQjF9AevBc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div>
+            <div>
+              <i class="fa fa-thumbs-up"></i>
+              <i class="fa fa-heart"></i>
+              <span>4,2k</span>
+            </div>
+            <div>
+              <span>278 binh luan</span>
+              <span>249 luot chia se</span>
+            </div>
+          </div>
+          <ul>
+            <li><i class="fa fa-thumbs-up"></i>Thich</li>
+            <li><i class="fa fa-comments-o"></i>Binh Luan</li>
+            <li><i class="fa fa-share"></i>Chia se</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h3>Được tài trợ</h3>
+          <div>
+            <div>
+              <img
+                src="./images/284972644_23851106850250318_6930363728303555436_n.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h4>Tang combo tron goi 4.900.000</h4>
+              <span>nguyenkim.com</span>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img
+                src="./images/280219165_23851078735850302_5927751727790427616_n.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h4>100% Ty LeDo ACCA Vuot Toi Toan Cau</h4>
+              <span>wiki.vn</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h3>Lời mời kết bạn</h3>
+            <span>Xem tat ca</span>
+          </div>
+          <div>
+            <div>
+              <img
+                src="./images/287131921_107785065297770_6708889852229721953_n.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h4>Nguyen Thi Huong Giang</h4>
+              <div>
+                <button>Xac nhan</button>
+                <button>Xoa</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>Sinh nhật</h3>
+          <div>
+            <i class="fa fa-gift"></i>
+            <span>Hom nay la sinh naht cua Toan ng Van va 3 nguoi khac</span>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h3>Người liên hệ</h3>
+            <div>
+              <i class="fa fa-search"></i>
+              <span>...</span>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <img
+                src="./images/275638848_333760578774928_5433916903240316669_n.jpg"
+                alt=""
+              />
+              <span>My hoa</span>
+            </li>
+            <li>
+              <img
+                src="./images/230343388_2851303195183324_4071331015257718084_n.jpg"
+                alt=""
+              />
+              <span>Duc tho</span>
+            </li>
+            <li>
+              <img
+                src="./images/264721334_2755507728076706_4840912405104783520_n.jpg"
+                alt=""
+              />
+              <span>Truong Ba Ngoc</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <h3>Cuoc Tro Chuyen Nhom</h3>
+          </div>
+          <ul>
+            <li>
+              <img
+                src="./images/279230076_597137884587870_4238646898050421728_n.jpg"
+                alt=""
+              />
+              <span>Team an nhau</span>
+            </li>
+            <li>
+              <img
+                src="./images/143086968_2856368904622192_1959732218791162458_n.png"
+                alt=""
+              />
+              <span>Duc, Minh va 6 nguoi khac</span>
+            </li>
+            <li>
+              <img
+                src="./images/279212267_2043068309185981_3934971744257131532_n.jpg"
+                alt=""
+              />
+              <span>Hieu, Dat va 8 nguoi khac</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
